@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>meysari week3</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">MeysariApp</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Picture</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Video</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </nav>
+    <section class="container-fluid jumbotron">
+      <h1>Berbagai Destinasi Indah Dunia</h1>
+    </section>
+
+    <div class="bg">
+      <div class="containerfoto">
+        <h2 class="tittle">Foto Destinasi Indah di Dunia</h2>
+        <div class="grid-wrapper">
+          <div class="pictures" id="fotoke1">
+            <img src="newZealand.jpg" alt="newZealand" />
+          </div>
+          <div class="pictures">
+            <img src="inggris.jpg" alt="inggris" />
+          </div>
+
+          <div class="pictures">
+            <img src="eropa.jpg" alt="eropa" />
+          </div>
+
+          <div class="pictures">
+            <img src="foto3.jpg" alt="eropa" />
+          </div>
+          <div class="pictures" id="fotoke4">
+            <img src="foto5.webp" alt="eropa" />
+          </div>
+          <div class="pictures" id="fotoke5">
+            <img src="swiss.jpg" alt="swiss" />
+          </div>
+          <div class="pictures">
+            <img src="switzerland.jpg" alt="eropa" />
+          </div>
+          <div class="pictures">
+            <img src="foto2.jpg" alt="eropa" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container2">
+      <h1 class="videotext">Video Salah satu Destinasi Terbaik Dunia</h1>
+      <video controls="true">
+        <source src="videoindonesia.mp4" type="video/webm" />
+      </video>
+    </div>
+
+    <section id="form-section">
+      <h2>Beri Kami FeedBack!</h2>
+      <form action="" method="post">
+        <fieldset>
+          <legend>Personal Data:</legend>
+          <div>
+            <label class="form" for="fullName">Full Name:</label>
+            <input id="fullName" type="text" required />
+          </div>
+
+          <div>
+            <label class="form" for="email">Email:</label>
+            <input id="email" type="email" required />
+          </div>
+
+          <div>
+            <label class="form" for="date">Tanggal </label>
+            <input type="date" />
+          </div>
+
+          <div>
+            <p>Are you living in Indonesia?</p>
+            <input type="radio" id="yes" name="isIndonesia" value="Male" />
+            <label class="form" for="yes">Yes</label>
+            <input type="radio" id="no" name="isIndonesia" value="Female" />
+            <label class="form" for="no">No</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Additional information:</legend>
+          <div>
+            <p>What do you think about a penguin?</p>
+            <input id="cute" type="checkbox" name="personality" value="cute" />
+            <label class="form" for="cute">Cute</label>
+            <input id="adorable" type="checkbox" name="personality" value="adorable" />
+            <label class="form" for="adorable">Adorable</label>
+            <input id="beautiful" type="checkbox" name="personality" value="beautiful" />
+            <label class="form" for="beautiful">Beautiful</label>
+          </div>
+
+          <div>
+            <p>Tell us why you love penguins!</p>
+            <textarea rows="3"></textarea>
+          </div>
+          <div>
+            <p>Upload your favorite penguin picture here:</p>
+            <input type="file" id="photo" name="myPenguinPhoto" required accept="image/png, image/jpeg" />
+          </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+  <footer></footer>
+</html>
