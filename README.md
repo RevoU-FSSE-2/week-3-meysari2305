@@ -8,7 +8,7 @@ MeysariApp
 
 # Link Tugas Web
 
-https://main--precious-pastelito-97ecc3.netlify.app/
+https://bright-marzipan-0e4c14.netlify.app/
 
 # Content di dalam Web ini terdiri dari :
 
